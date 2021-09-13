@@ -1,0 +1,11 @@
+[Unit]
+Description=Python script for button
+After=multi-user.target 
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=python /home/python/button.py
+
+[Install]
+WantedBy=multi-user.target 
