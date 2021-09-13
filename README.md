@@ -16,6 +16,6 @@ run init_kafka.sh
 ## Construct button circut
 
 [<img src="(https://raw.githubusercontent.com/ambader/kafka_server_rpi/main/img/circuit_diagram.png" width="250"/>](circuit_diagram.png)
-![](https://raw.githubusercontent.com/ambader/kafka_server_rpi/main/img/circuit_diagram.png)[width=0.5]
+![](https://raw.githubusercontent.com/ambader/kafka_server_rpi/main/img/circuit_diagram.png){height=400px width=500px}
 
 Created with [fritzing](https://fritzing.org/)
