@@ -15,5 +15,6 @@ run init_kafka.sh
 
 ## Construct button circut
 
+![](https://raw.githubusercontent.com/ambader/kafka_server_rpi/main/img/circuit_diagram.png)
 
-https://fritzing.org/
+Created with [fritzing](https://fritzing.org/)
