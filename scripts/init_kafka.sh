@@ -1,7 +1,9 @@
 #!/bin/bash
 
-sudo apt update
-sudo apt install default-jdk
+apt update
+apt install default-jdk
+
+mkdir /home/python
 
 wget https://archive.apache.org/dist/kafka/2.7.0/kafka_2.13-2.7.0.tgz -O /home/kafka.tgz
 tar xzf kafka.tgz
