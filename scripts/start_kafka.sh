@@ -3,11 +3,11 @@
 systemctl start zookeeper
 systemctl start kafka
 
-while getopts n:i: flag
+while getopts name:num: flag
 do
     case "${flag}" in
-        n) topic_name=${OPTARG};;
-        i) partition_number=${OPTARG};;
+        name) topic_name=${OPTARG};;
+        num) partition_number=${OPTARG};;
     esac
 done
 
