@@ -3,7 +3,7 @@
 sudo apt update
 sudo apt install default-jdk
 
-wget http://www-us.apache.org/dist/kafka/2.7.0/kafka_2.13-2.7.0.tgz -O /home/kafka.tgz
+wget https://archive.apache.org/dist/kafka/2.7.0/kafka_2.13-2.7.0.tgz -O /home/kafka.tgz
 tar xzf kafka.tgz
 
 wget https://raw.githubusercontent.com/ambader/kafka_server_rpi/main/scripts/zookeeper.service -O /etc/systemd/system/zookeeper.service
