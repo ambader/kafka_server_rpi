@@ -2,6 +2,7 @@
 
 apt update
 apt install default-jdk
+apt install python-pip
 
 mkdir /home/python
 
