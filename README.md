@@ -13,6 +13,10 @@ Set up a Kafka server on a Raspberry Pi and feed content via GPIO
 
 run init_kafka.sh
 
+```console
+sudo sh https://raw.githubusercontent.com/ambader/kafka_server_rpi/main/scripts/init_kafka.sh
+```
+
 ## Construct button circuit
 
 <img src="https://raw.githubusercontent.com/ambader/kafka_server_rpi/main/img/circuit_diagram.png" width="500" height="500">
