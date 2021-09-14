@@ -3,6 +3,11 @@
 systemctl start zookeeper
 systemctl start kafka
 
+until systemctl is-active --quiet kafka
+do
+ sleep 1
+done
+
 while getopts n:i: flag
 do
     case "${flag}" in
