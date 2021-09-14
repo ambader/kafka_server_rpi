@@ -17,6 +17,3 @@ wget https://raw.githubusercontent.com/ambader/kafka_server_rpi/main/scripts/sta
 wget https://raw.githubusercontent.com/ambader/kafka_server_rpi/main/scripts/button.py -O /home/python/button.py
 
 systemctl daemon-reload
-
-systemctl start zookeeper
-systemctl status kafka
