@@ -8,6 +8,8 @@ mkdir /home/python
 wget https://archive.apache.org/dist/kafka/2.7.0/kafka_2.13-2.7.0.tgz -O /home/kafka.tgz
 tar xzf kafka.tgz
 
+mv kafka_2.13-2.7.0 kafka
+
 wget https://raw.githubusercontent.com/ambader/kafka_server_rpi/main/scripts/zookeeper.service -O /etc/systemd/system/zookeeper.service
 wget https://raw.githubusercontent.com/ambader/kafka_server_rpi/main/scripts/kafka.service -O /etc/systemd/system/kafka.service
 
