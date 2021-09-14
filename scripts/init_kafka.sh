@@ -3,8 +3,6 @@
 apt update
 apt install default-jdk
 
-pip install kafka-python
-
 mkdir /home/python
 
 wget https://archive.apache.org/dist/kafka/2.7.0/kafka_2.13-2.7.0.tgz -O /home/kafka.tgz
