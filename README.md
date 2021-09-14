@@ -11,10 +11,11 @@ Set up a Kafka server on a Raspberry Pi and feed content via GPIO
 
 ## Actuate Server
 
-run init_kafka.sh
+dwld'n'run init_kafka.sh
 
 ```console
-sudo sh https://raw.githubusercontent.com/ambader/kafka_server_rpi/main/scripts/init_kafka.sh
+sudo wget https://raw.githubusercontent.com/ambader/kafka_server_rpi/main/scripts/init_kafka.sh
+sudo sh init_kafka.sh
 ```
 
 ## Construct button circuit
