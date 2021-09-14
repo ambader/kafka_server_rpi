@@ -14,13 +14,14 @@ do
  sleep 1
 done
 
-while getopts n:i: flag
+while getopts n:i:r: flag
 do
     case "${flag}" in
         n) topic_name=${OPTARG};;
         i) partition_number=${OPTARG};;
+        r) $replication_factor=${OPTARG};;
     esac
 done
 
-/home/kafka/bin/kafka-topics.sh --create --topic $topic_name --bootstrap-server localhost:9092 --partitions $partition_number
+/home/kafka/bin/kafka-topics.sh --create --topic $topic_name --zookeeper localhost:2181 --partitions $partition_number --replication-factor $replication_factor
 
