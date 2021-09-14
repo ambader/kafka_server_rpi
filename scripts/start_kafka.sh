@@ -1,6 +1,12 @@
 #!/bin/bash
  
 systemctl start zookeeper
+
+while ! systemctl is-active --quiet zookeeper
+do
+ sleep 1
+done
+
 systemctl start kafka
 
 while ! systemctl is-active --quiet kafka
