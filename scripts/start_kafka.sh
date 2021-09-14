@@ -3,7 +3,7 @@
 systemctl start zookeeper
 systemctl start kafka
 
-until systemctl is-active --quiet kafka
+while ! systemctl is-active --quiet kafka
 do
  sleep 1
 done
