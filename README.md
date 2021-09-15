@@ -23,3 +23,12 @@ sudo sh init_kafka.sh
 <img src="https://raw.githubusercontent.com/ambader/kafka_server_rpi/main/img/circuit_diagram.png" width="500" height="500">
 
 Created with [fritzing](https://fritzing.org/)
+
+### Button pillar
+
+<img src="https://raw.githubusercontent.com/ambader/kafka_server_rpi/main/img/button.png" width="750" height="350">
+
+Created with [OpenSCAD](https://openscad.org/)
+
+-dwld [.stl file](https://github.com/ambader/kafka_server_rpi/blob/main/img/button.stl) for 3d printers
+
