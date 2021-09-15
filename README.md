@@ -17,8 +17,9 @@ dwld'n'run init_kafka.sh
 sudo wget https://raw.githubusercontent.com/ambader/kafka_server_rpi/main/scripts/init_kafka.sh
 sudo sh init_kafka.sh
 ```
+## Hardware setting
 
-## Construct button circuit
+### Construct button circuit
 
 <img src="https://raw.githubusercontent.com/ambader/kafka_server_rpi/main/img/circuit_diagram.png" width="500" height="500">
 
