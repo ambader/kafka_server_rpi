@@ -29,5 +29,5 @@ Created with [fritzing](https://fritzing.org/)
 
 <img src="https://raw.githubusercontent.com/ambader/kafka_server_rpi/main/img/button.png" width="750" height="350">
 
--> dwld [.stl file](https://github.com/ambader/kafka_server_rpi/blob/main/img/button.stl) for 3d printers :: Created with [OpenSCAD](https://openscad.org/)
+-> dwld [.stl file](https://github.com/ambader/kafka_server_rpi/blob/main/img/button.stl) for 3d printers :: Created with [OpenSCAD](https://openscad.org/) :: [.scad file](https://github.com/ambader/kafka_server_rpi/blob/main/scripts/button.scad)
 
