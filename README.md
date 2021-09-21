@@ -25,6 +25,9 @@ sudo sh init_kafka.sh
 
 Created with [fritzing](https://fritzing.org/)
 
+* button resistor 10 k\Omega
+* led resitor 220 \Omega
+
 ### Button pillar
 
 <img src="https://raw.githubusercontent.com/ambader/kafka_server_rpi/main/img/button.png" width="750" height="350">
