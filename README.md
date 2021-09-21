@@ -25,8 +25,8 @@ sudo sh init_kafka.sh
 
 Created with [fritzing](https://fritzing.org/)
 
-* button resistor 10 k\Omega
-* led resitor 220 \Omega
+* button resistor 10 kΩ
+* led resitor 220 Ω
 
 ### Button pillar
 
